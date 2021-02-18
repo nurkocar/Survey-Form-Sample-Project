@@ -15,25 +15,31 @@
     <form action="">
         <div class="container">
             <div class="box">
-                <label for="name">Name <br><input type="text" name="fname" id="name" placeholder="Enter your name"></label>
+                <label for="name">Name <br>
+                    <input type="text" name="fname" id="name" placeholder="Enter your name">
+                </label>
             </div>
             <div class="box">
-                <label for="surname">Surname <br><input type="text" name="sname" id="surname" placeholder="Enter your surname"></label>
+                <label for="surname">Surname <br>
+                    <input type="text" name="sname" id="surname" placeholder="Enter your surname">
+                </label>
             </div>
             <div class="box">
-                <label for="email">Email<br><input type="email" name="email" id="email" placeholder="user@company.com"></label>
+                <label for="email">Email<br>
+                    <input type="email" name="email" id="email" placeholder="user@company.com">
+                </label>
             </div>
             <div class="box">
                 <label>Which option best describes your current role?</label>
                 <br>
                 <select name="current_role" id="c_role" required>
-                <option value="Select current role" disabled selected>Select current role</option>
-                <option value="Teacher">Teacher</option>
-                <option value="Plumber">Plumber</option>
-                <option value="Solicitor">Solicitor</option>
-                <option value="Gas Engineer">Gas Engineer</option>
-                <option value="Doctor">Doctor</option>
-            </select>
+                    <option value="Select current role" disabled selected>Select current role</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Plumber">Plumber</option>
+                    <option value="Solicitor">Solicitor</option>
+                    <option value="Gas Engineer">Gas Engineer</option>
+                    <option value="Doctor">Doctor</option>
+                </select>
             </div>
             <div class="box">
                 <label>Would you recommend Company A to a friend?</label>
@@ -44,7 +50,7 @@
                 <input type="radio" name="recommendation" value="Maybe" id="maybe">
                 <label for="maybe">Maybe</label>
                 <br>
-                <input type="radio" name="recommendation" value="Not sure" id="not_sure">Not sure
+                <input type="radio" name="recommendation" value="Not sure" id="not_sure">
                 <label for="not_sure">Not sure</label>
                 <br>
                 <input type="radio" name="recommendation" value="No" id="no">
@@ -54,13 +60,13 @@
                 <label>What is your favourite feature of Company A?</label>
                 <br>
                 <select name="favourite feature" id="fav_feature" required>
-                <option value="Select an option" disabled selected>Select an option</option>
-                <option value="Lms">Lms</option>
-                <option value="PreClass Material">PreClass Material</option>
-                <option value="Check Yourself">Check Yourself</option>
-                <option value="In Class">In Class</option>
-                <option value="Teamwork">Teamwork</option>
-            </select>
+                    <option value="Select an option" disabled selected>Select an option</option>
+                    <option value="Lms">Lms</option>
+                    <option value="PreClass Material">PreClass Material</option>
+                    <option value="Check Yourself">Check Yourself</option>
+                    <option value="In Class">In Class</option>
+                    <option value="Teamwork">Teamwork</option>
+                </select>
             </div>
             <div class="box">
                 <label>What would you like to see improved? (Check all that apply)</label>
@@ -78,7 +84,8 @@
             <div class="box">
                 <label for="comments">Any comments or suggestions?</label>
                 <br>
-                <textarea name="comments" id="comments" cols="30" rows="2" placeholder="Enter your comment here.. Thanxs for your time."></textarea>
+                <textarea name="comments" id="comments" cols="30" rows="2"
+                    placeholder="Enter your comment here.. Thanks for your time."></textarea>
                 <input type="submit" value="Submit">
             </div>
         </div>
